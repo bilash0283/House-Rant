@@ -8,7 +8,7 @@
             <div class="bg-blue-600 p-2 rounded-lg mr-3">
                 <i class="fas fa-home text-white"></i>
             </div>
-            <span class="text-xl font-bold">RentManager</span>
+            <span class="text-xl font-bold">Rent-Manager</span>
         </div>
 
         {{-- Menu --}}
