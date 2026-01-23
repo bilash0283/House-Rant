@@ -22,7 +22,7 @@
             </li>
 
             <li>
-                <a href="#" class="flex items-center p-3 rounded-lg text-slate-600 hover:bg-slate-100">
+                <a href="{{ route('building') }}" class="flex items-center p-3 rounded-lg text-slate-600 hover:bg-slate-100">
                     <i class="fas fa-building w-5"></i>
                     <span class="ms-3">Bulding</span>
                 </a>
