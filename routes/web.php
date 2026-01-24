@@ -19,6 +19,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/building',[BuildingController::class,'building_index'])->name('building');
     Route::get('/Building-Add',[BuildingController::class,'building-add'])->name('building_add');
+    
 
 });
 
