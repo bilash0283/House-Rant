@@ -18,6 +18,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::get('/building',[BuildingController::class,'building_index'])->name('building');
+    Route::get('/Building-Add',[BuildingController::class,'building-add'])->name('building_add');
+
 });
 
 require __DIR__.'/auth.php';
